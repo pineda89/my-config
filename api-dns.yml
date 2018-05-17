@@ -1,0 +1,16 @@
+applicationPort: 8082
+circuitBreakerTimeout: 5000ms
+circuitBreakerthreshold: 10
+logLevel: DEBUG
+
+DNSConfiguration:
+  serverAddress: http://localhost:8080
+  apiKey: changeme
+  defaultServer: localhost
+
+Persistence:
+  driver: mysql
+  user: username
+  password: your_password
+  DBName: your_db
+  DBAddress: 172.16.128.243:3306
