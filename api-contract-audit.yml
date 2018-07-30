@@ -1,0 +1,13 @@
+applicationPort: 8080
+circuitBreakerTimeout: 5000ms
+circuitBreakerthreshold: 10
+logLevel: DEBUG
+
+
+queue:
+  uri: amqp://guest:guest@localhost:5672/
+  username: guest
+  password: guest
+  queuename: abc
+
+backupfolder: /tmp/backupfolder/
